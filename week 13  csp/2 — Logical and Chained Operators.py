@@ -21,6 +21,23 @@ print(1 < x < 20)         # True
 
 # Practice Problems:
 
+score = int(input("Enter in your score: "))
+if score >= 90:
+    print("A")
+else:
+    if score >= 80 and score < 90:
+        print("B")
+    else:
+        if score >= 70 and score < 80:
+            print("C")
+        else:
+            if score >= 60 and score < 70:
+                print("D")
+            else:
+                if score < 60:
+                    print("F")
+
+
 # Write an expression that checks if a number is between 50 and 100 (inclusive).
 
 # Write an expression that checks if a number is NOT equal to 0 and greater than 10.
